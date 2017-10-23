@@ -1,0 +1,108 @@
+﻿@model List<ActiveListingModel>
+
+@if (Model.Count > 0)
+{
+<h3>Active Listings</h3>
+<div class="c-content__property c-content__property--active">
+@foreach (var item in Model)
+  {
+    if(item.IsFeature)
+    {
+    <div class="c-content__property-item c-content__property-item--favourite">
+        <a href="#">
+            <div class="c-content__property-main">
+                <div class="c-content__property-image">
+                    <img src="@item.ImageUrl" alt="">
+                </div>
+                <div class="c-content__property-price h-clearfix">
+                    <div class="c-content__property-price-current">
+                      @item.ImageUrl
+                    </div>
+                    <div class="c-content__property-price-changes c-content__property-price-changes--down">
+                        <span class="value">@item.ChanePrice</span>
+                    </div>
+                </div>
+            </div>
+            <div class="c-content__property-desc">
+                <div class="c-content__property-info h-clearfix">
+                    <div class="c-content__property-address">
+                        @item.Address
+                    </div>
+                    <div class="c-content__property-photos">
+                        <span>×</span> @item.Photo
+                    </div>
+                </div>
+                <div class="c-content__property-features h-clearfix">
+                    @foreach(var activeitem in item.ActiveListingFeatures)
+                    {
+                    
+                    <div class="c-content__property-feature c-content__property-feature--beds">
+                        @activeitem.Bed
+                    </div>
+                    <div class="c-content__property-feature c-content__property-feature--bath">
+                        @activeitem.Bath
+                    </div>
+                    <div class="c-content__property-feature c-content__property-feature--sqft">
+                        @activeitem.Sqft
+                    </div>
+                    }
+                </div>
+            </div>
+        </a>
+        <div class="c-content__property-favourite"></div>
+    </div>
+    }
+    else{
+<div class="c-content__property-item">
+    <a href="#">
+        <div class="c-content__property-main">
+            <div class="c-content__property-image">
+                <img src="@item.ImageUrl" alt="">
+            </div>
+            <div class="c-content__property-price h-clearfix">
+                <div class="c-content__property-price-current">
+                    @item.ImageUrl
+                </div>
+                <div class="c-content__property-price-changes c-content__property-price-changes--down">
+                    <span class="value">@item.ChanePrice</span>
+                </div>
+            </div>
+        </div>
+        <div class="c-content__property-desc">
+            <div class="c-content__property-info h-clearfix">
+                <div class="c-content__property-address">
+                    @item.Address
+                </div>
+                <div class="c-content__property-photos">
+                    <span>×</span> @item.Photo
+                </div>
+            </div>
+            <div class="c-content__property-features h-clearfix">
+                @foreach(var activeitem in item.ActiveListingFeatures)
+                    {
+                    
+                <div class="c-content__property-feature c-content__property-feature--beds">
+                    @activeitem.Bed
+                </div>
+                <div class="c-content__property-feature c-content__property-feature--bath">
+                    @activeitem.Bath
+                </div>
+                <div class="c-content__property-feature c-content__property-feature--sqft">
+                    @activeitem.Sqft
+                </div>
+                }
+            </div>
+        </div>
+    </a>
+    <div class="c-content__property-favourite"></div>
+</div>
+    }
+
+    }
+</div>
+
+<div class="l-row l-row--center">
+    <a class="l-btn l-btn-more l-btn--blue" href="#">See More</a>
+</div>
+    }
+

@@ -1,0 +1,55 @@
+﻿@model List<TopMenu>
+@if (Model.Count > 0)
+{
+
+            @foreach (var item in Model)
+            {
+                if (item.SubCategories.Count > 0)
+                {
+                <li class="has-dropdown">
+                    <span>@item.ParentMenuName</span>
+                    @*magic string Buy will be removed*@
+                    @if (item.ParentMenuName == "Buy")
+                    {
+                    <ul class="l-dropdown l-dropdown--left">
+                    @for(var i=0; i<item.SubCategories.Count;i++)
+                    {
+                        if (i==0)
+                        {
+                        <li class="user-location">
+                            <a href="#">@item.SubCategories[i].Name</a>
+                        </li>
+                        }
+                        else
+                        {
+                            <li>
+                                <a href="#">@item.SubCategories[i].Name</a>
+                            </li>
+                        }
+                    }
+                    </ul>
+                    }
+                    else
+                    {
+                        <ul class="l-dropdown l-dropdown--right">
+                            @foreach (var subitem in item.SubCategories)
+                            {
+                                <li>
+                                    <a href="#">@subitem.Name</a>
+                                </li>
+                            }
+                        </ul>
+
+                    }
+                </li>
+                }
+                else
+                {
+                    <li>
+                        <a href="#">@item.ParentMenuName</a>
+                    </li>
+
+                }
+            }
+
+}

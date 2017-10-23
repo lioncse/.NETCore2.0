@@ -1,0 +1,65 @@
+D:\RideskIT\InterviewProject\InterviewProject\bin\Debug\netcoreapp2.0\InterviewProject.deps.json
+D:\RideskIT\InterviewProject\InterviewProject\bin\Debug\netcoreapp2.0\InterviewProject.runtimeconfig.json
+D:\RideskIT\InterviewProject\InterviewProject\bin\Debug\netcoreapp2.0\InterviewProject.runtimeconfig.dev.json
+D:\RideskIT\InterviewProject\InterviewProject\bin\Debug\netcoreapp2.0\InterviewProject.dll
+D:\RideskIT\InterviewProject\InterviewProject\bin\Debug\netcoreapp2.0\InterviewProject.pdb
+D:\RideskIT\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.csprojResolveAssemblyReference.cache
+D:\RideskIT\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.csproj.CoreCompileInputs.cache
+D:\RideskIT\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.AssemblyInfoInputs.cache
+D:\RideskIT\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.AssemblyInfo.cs
+D:\RideskIT\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.dll
+D:\RideskIT\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.pdb
+D:\RideskIT\Assignment for new project\InterviewProject\InterviewProject\bin\Debug\netcoreapp2.0\InterviewProject.deps.json
+D:\RideskIT\Assignment for new project\InterviewProject\InterviewProject\bin\Debug\netcoreapp2.0\InterviewProject.runtimeconfig.json
+D:\RideskIT\Assignment for new project\InterviewProject\InterviewProject\bin\Debug\netcoreapp2.0\InterviewProject.runtimeconfig.dev.json
+D:\RideskIT\Assignment for new project\InterviewProject\InterviewProject\bin\Debug\netcoreapp2.0\InterviewProject.dll
+D:\RideskIT\Assignment for new project\InterviewProject\InterviewProject\bin\Debug\netcoreapp2.0\InterviewProject.pdb
+D:\RideskIT\Assignment for new project\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.csprojResolveAssemblyReference.cache
+D:\RideskIT\Assignment for new project\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.csproj.CoreCompileInputs.cache
+D:\RideskIT\Assignment for new project\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.AssemblyInfoInputs.cache
+D:\RideskIT\Assignment for new project\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.AssemblyInfo.cs
+D:\RideskIT\Assignment for new project\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.dll
+D:\RideskIT\Assignment for new project\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.pdb
+D:\InterviewProject\InterviewProject\InterviewProject\bin\Debug\netcoreapp2.0\InterviewProject.deps.json
+D:\InterviewProject\InterviewProject\InterviewProject\bin\Debug\netcoreapp2.0\InterviewProject.runtimeconfig.json
+D:\InterviewProject\InterviewProject\InterviewProject\bin\Debug\netcoreapp2.0\InterviewProject.runtimeconfig.dev.json
+D:\InterviewProject\InterviewProject\InterviewProject\bin\Debug\netcoreapp2.0\InterviewProject.dll
+D:\InterviewProject\InterviewProject\InterviewProject\bin\Debug\netcoreapp2.0\InterviewProject.pdb
+D:\InterviewProject\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.csprojResolveAssemblyReference.cache
+D:\InterviewProject\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.csproj.CoreCompileInputs.cache
+D:\InterviewProject\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.AssemblyInfoInputs.cache
+D:\InterviewProject\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.AssemblyInfo.cs
+D:\InterviewProject\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.dll
+D:\InterviewProject\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.pdb
+C:\Users\BS99\Desktop\Project\InterviewProject\InterviewProject\bin\Debug\netcoreapp2.0\InterviewProject.deps.json
+C:\Users\BS99\Desktop\Project\InterviewProject\InterviewProject\bin\Debug\netcoreapp2.0\InterviewProject.runtimeconfig.json
+C:\Users\BS99\Desktop\Project\InterviewProject\InterviewProject\bin\Debug\netcoreapp2.0\InterviewProject.runtimeconfig.dev.json
+C:\Users\BS99\Desktop\Project\InterviewProject\InterviewProject\bin\Debug\netcoreapp2.0\InterviewProject.dll
+C:\Users\BS99\Desktop\Project\InterviewProject\InterviewProject\bin\Debug\netcoreapp2.0\InterviewProject.pdb
+C:\Users\BS99\Desktop\Project\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.csprojResolveAssemblyReference.cache
+C:\Users\BS99\Desktop\Project\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.csproj.CoreCompileInputs.cache
+C:\Users\BS99\Desktop\Project\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.AssemblyInfoInputs.cache
+C:\Users\BS99\Desktop\Project\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.AssemblyInfo.cs
+C:\Users\BS99\Desktop\Project\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.dll
+C:\Users\BS99\Desktop\Project\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.pdb
+D:\Project\Project\InterviewProject\InterviewProject\bin\Debug\netcoreapp2.0\InterviewProject.deps.json
+D:\Project\Project\InterviewProject\InterviewProject\bin\Debug\netcoreapp2.0\InterviewProject.runtimeconfig.json
+D:\Project\Project\InterviewProject\InterviewProject\bin\Debug\netcoreapp2.0\InterviewProject.runtimeconfig.dev.json
+D:\Project\Project\InterviewProject\InterviewProject\bin\Debug\netcoreapp2.0\InterviewProject.dll
+D:\Project\Project\InterviewProject\InterviewProject\bin\Debug\netcoreapp2.0\InterviewProject.pdb
+D:\Project\Project\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.csprojResolveAssemblyReference.cache
+D:\Project\Project\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.csproj.CoreCompileInputs.cache
+D:\Project\Project\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.AssemblyInfoInputs.cache
+D:\Project\Project\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.AssemblyInfo.cs
+D:\Project\Project\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.dll
+D:\Project\Project\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.pdb
+D:\RideskIT\Assignment for Interview\InterviewProject\InterviewProject\bin\Debug\netcoreapp2.0\InterviewProject.deps.json
+D:\RideskIT\Assignment for Interview\InterviewProject\InterviewProject\bin\Debug\netcoreapp2.0\InterviewProject.runtimeconfig.json
+D:\RideskIT\Assignment for Interview\InterviewProject\InterviewProject\bin\Debug\netcoreapp2.0\InterviewProject.runtimeconfig.dev.json
+D:\RideskIT\Assignment for Interview\InterviewProject\InterviewProject\bin\Debug\netcoreapp2.0\InterviewProject.dll
+D:\RideskIT\Assignment for Interview\InterviewProject\InterviewProject\bin\Debug\netcoreapp2.0\InterviewProject.pdb
+D:\RideskIT\Assignment for Interview\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.csproj.CoreCompileInputs.cache
+D:\RideskIT\Assignment for Interview\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.AssemblyInfoInputs.cache
+D:\RideskIT\Assignment for Interview\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.AssemblyInfo.cs
+D:\RideskIT\Assignment for Interview\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.dll
+D:\RideskIT\Assignment for Interview\InterviewProject\InterviewProject\obj\Debug\netcoreapp2.0\InterviewProject.pdb

@@ -1,0 +1,17 @@
+﻿@{
+    ViewData["Title"] = "Agent Profile";
+}
+
+<div class="c-content__wrap">
+    <div class="l-container">
+        <div class="c-content__agent-profile h-clearfix">
+            @await Component.InvokeAsync("AgentProfile")
+        </div>
+        <div class="l-divider l-divider--big"></div>
+         @await Component.InvokeAsync("ActiveListing")
+        <div class="l-divider l-divider--big"></div>
+        @await Component.InvokeAsync("PastSale")
+        <div class="l-divider l-divider--big"></div>        
+        @await Component.InvokeAsync("ReviewListing")
+    </div>
+</div>

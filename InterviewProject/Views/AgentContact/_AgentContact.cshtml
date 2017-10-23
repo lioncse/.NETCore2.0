@@ -1,0 +1,80 @@
+﻿@model AgentContactModel
+
+@{
+}
+
+<div class="c-content__agent-form l-col l-col-4">
+    <div class="l-box">
+        @using (Html.BeginForm("Contact", "AgentContact", FormMethod.Post, new { @class = "l-form l-contact-agent-form" }))
+        {
+            <div class="l-form__holder">
+                <h5>Contact Melissa</h5>
+                <div class="l-form__inner">
+                    <div class="l-form-row h-clearfix">
+                        <div class="l-form-group">
+                            <input type="text" class="l-form-control" id="inputFirstName" name="FirstName" required>
+                            <label for="inputFirstName" class="l-form-label">first name</label>
+                            <span class="l-form-control-focus"></span>
+                        </div>
+                    </div>
+                    <div class="l-form-row h-clearfix">
+                        <div class="l-form-group">
+                            <input type="text" class="l-form-control" id="inputLastName" name="LastName" required>
+                            <label for="inputLastName" class="l-form-label">last name</label>
+                            <span class="l-form-control-focus"></span>
+                        </div>
+                    </div>
+                    <div class="l-form-row h-clearfix">
+                        <div class="l-form-group l-form-group--textarea">
+                            <textarea class="l-form-control" id="areaComment" name="Comment" required></textarea>
+                            <label for="areaComment" class="l-form-label">comment</label>
+                            <span class="l-form-control-focus"></span>
+                        </div>
+                    </div>
+                    <div class="l-form-row l-form-row--submit l-row--center">
+                        <button type="submit" class="l-btn l-btn-primary">Submit</button>
+                        <div class="l-form__buttons h-clearfix">
+                            <button type="button" class="l-btn l-btn--action l-btn--gray">Call</button>
+                            <button type="button" class="l-btn l-btn--action l-btn--gray">Leave Review</button>
+                        </div>
+                        <div class="l-form-text">
+                            <a href="#">www.crosbyrealestate.com</a>
+                        </div>
+                        <ul class="l-list l-list--social c-content__agent-form-social">
+                            <li>
+                                <a href="#" target="_blank">
+                                    <span class="l-list--social__icon">
+                                        <img src="/AgentProfile/images/social/icon-twitter-agent.svg" alt="">
+                                    </span>
+                                    <span class="l-list--social__icon--hover">
+                                        <img src="/AgentProfile/images/social/icon-twitter.svg" alt="">
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <span class="l-list--social__icon">
+                                        <img src="/AgentProfile/images/social/icon-facebook-agent.svg" alt="">
+                                    </span>
+                                    <span class="l-list--social__icon--hover">
+                                        <img src="/AgentProfile/images/social/icon-facebook.svg" alt="">
+                                    </span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#" target="_blank">
+                                    <span class="l-list--social__icon">
+                                        <img src="/AgentProfile/images/social/icon-linkedin-agent.svg" alt="">
+                                    </span>
+                                    <span class="l-list--social__icon--hover">
+                                        <img src="/AgentProfile/images/social/icon-linkedin.svg" alt="">
+                                    </span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>

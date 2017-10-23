@@ -1,0 +1,58 @@
+﻿@model List<SaleModel>
+    
+ <h3>Past Sales</h3>
+ <div class="c-content__sales">
+        <div class="c-content__sales-row">
+            <div class="c-content__sales-col c-content__sales-col--property">
+                Property
+            </div>
+            <div class="c-content__sales-col c-content__sales-col--details">
+                Details
+            </div>
+            <div class="c-content__sales-col c-content__sales-col--represented">
+                Represented
+            </div>
+            <div class="c-content__sales-col c-content__sales-col--price">
+                Price
+            </div>
+        </div>
+     @foreach (var item in Model)
+     {
+        <div class="c-content__sales-row">
+            <div class="c-content__sales-col c-content__sales-col--property">
+                <div class="c-content__sales-property-photo">
+                    <img src="@item.Photo" alt="">
+                </div>
+            </div>
+            <div class="c-content__sales-col c-content__sales-col--details">
+                @foreach (var saledetail in item.SaleDetails)
+                {
+                <span class="c-content__sales-price">@saledetail.Price</span>
+                <span class="c-content__sales-location">@saledetail.Location</span>
+                <span class="c-content__sales-address">@saledetail.Address</span>
+                <span class="c-content__sales-info">@saledetail.Info</span>
+                <span class="c-content__sales-date">@saledetail.Date</span>
+                }
+            </div>
+            <div class="c-content__sales-col c-content__sales-col--represented">
+                @item.Represent
+            </div>
+            <div class="c-content__sales-col c-content__sales-col--price">
+                @item.Price
+            </div>
+        </div>
+     }
+       
+        <ul class="l-list l-list--pagination">
+            <li class="l-list__pagination-control l-list__pagination-control--prev l-list__pagination-control--disabled">
+                <a href="#"></a>
+            </li>
+            <li class="l-list__pagination-pages">
+                <span class="l-list-pagination__current">1</span>
+                <span class="l-list-pagination__pages-count">32</span>
+            </li>
+            <li class="l-list__pagination-control l-list__pagination-control--next">
+                <a href="#"></a>
+            </li>
+        </ul>
+    </div>

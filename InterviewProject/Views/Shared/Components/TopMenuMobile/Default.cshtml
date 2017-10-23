@@ -1,0 +1,31 @@
+﻿@model List<TopMenu>
+@if (Model.Count > 0)
+{
+
+            @foreach (var item in Model)
+            {
+                if (item.SubCategories.Count > 0)
+                {
+                <li class="has-dropdown">
+                    <span class="has-dropdown__title">@item.ParentMenuName</span>
+                    @*magic string Buy will be removed*@
+                    <ul class="l-dropdown--mobile">
+                    @for(var i=0; i<item.SubCategories.Count;i++)
+                    {
+                            <li>
+                                <a href="#">@item.SubCategories[i].Name</a>
+                            </li>
+                    }
+                    </ul>
+                </li>
+                }
+                else
+                {
+                    <li>
+                        <a href="#">@item.ParentMenuName</a>
+                    </li>
+
+                }
+            }
+
+}
